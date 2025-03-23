@@ -81,7 +81,7 @@ POST /api/report/7999000009/generate-cdr?startDate=2025-03-01T19:55:33+00:00&end
   "message": "CDR report generation started"
 }
 ```
--**Ошибки**:
+- **Ошибки**:
     - 400 Bad Request: Если формат даты неверный или начальная дата позже конечной.
     - 500 Internal Server Error: Если произошла ошибка при генерации отчёта.
 
